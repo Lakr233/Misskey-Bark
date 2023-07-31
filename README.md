@@ -2,6 +2,8 @@
 
 A bot that translates Misskey web-hook to Bark notifications.
 
+![demo.jpg](./res/demo.jpeg)
+
 ```bash
 cp ./config/config.example.json ./config/config.json
 nano config.json
