@@ -1,0 +1,19 @@
+{
+    "bark": {
+        "endpoints": [
+            "https://example.com/aaabbbccc",
+            "https://example.com/dddeeefff"
+        ],
+        "group": "Misskey",
+        "icon": "https://github.com/Lakr233/Kimis/blob/main/Kimis/Resources/Assets.xcassets/AppIcon.appiconset/icon-83.5@2x.png?raw=true",
+        "sound" : "chime",
+        "cat": false
+    },
+    "misskey": {
+        "key": "111222333"
+    },
+    "server": {
+        "port": 8000,
+        "path": "/hook"
+    }
+}

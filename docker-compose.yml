@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  argo:
+    image: cloudflare/cloudflared:latest
+    restart: always
+    command: tunnel run --protocol http2 --token ${ARGO_TOKEN}
+
+  misskey-bark:
+    build: .
+    volumes:
+      - ./config:/app/config/
